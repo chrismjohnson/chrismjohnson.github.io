@@ -1,0 +1,446 @@
+/* line 2, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume dl {
+  line-height: 24px;
+  margin: 0; }
+  /* line 6, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume dl dt {
+    float: left;
+    width: 10em;
+    font-style: italic;
+    font-weight: normal; }
+    /* line 12, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume dl dt:after {
+      content: ":"; }
+  /* line 17, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume dl dd {
+    margin-left: 10em; }
+/* line 22, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume ul {
+  list-style: disc;
+  margin: 0 0 1.5em 1.5em;
+  padding: 0; }
+/* line 28, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume section {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0;
+  padding: 1em 0; }
+  /* line 33, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume section.first, .resume section:first-child, .resume section:first-of-type {
+    margin-top: 0;
+    padding-top: 0; }
+  /* line 40, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume section.last, .resume section:last-child, .resume section:last-of-type {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  /* line 48, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume section > .title {
+    border: 0 !important;
+    float: right;
+    width: 220px;
+    color: #E9E9E9;
+    line-height: 16px;
+    -moz-text-shadow: #202020 0 0 0.5em;
+    -o-text-shadow: #202020 0 0 0.5em;
+    -webkit-text-shadow: #202020 0 0 0.5em;
+    text-shadow: #202020 0 0 0.5em;
+    margin: 0 -280px 0 0 !important;
+    padding: 0 !important; }
+/* line 67, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume .entry {
+  position: relative;
+  text-align: justify;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 1em 0;
+  padding: 0 0 0 0; }
+  /* line 74, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry.first, .resume .entry:first-child, .resume .entry:first-of-type {
+    padding-top: 0; }
+    /* line 79, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry.first .date, .resume .entry:first-child .date, .resume .entry:first-of-type .date {
+      top: 0; }
+  /* line 82, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry.last, .resume .entry:last-child, .resume .entry:last-of-type {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  /* line 90, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry .date {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  /* line 96, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry .location {
+    display: none; }
+  /* line 100, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry .position {
+    position: relative; }
+    /* line 103, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry .position .title {
+      display: inline-block;
+      font-style: italic; }
+    /* line 108, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry .position .date {
+      display: inline-block;
+      position: static;
+      margin-left: 20px; }
+    /* line 115, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry .position:first-of-type:last-of-type .date {
+      display: none; }
+  /* line 119, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h1, .resume .entry h2, .resume .entry h3, .resume .entry h4, .resume .entry h5 {
+    font-weight: normal;
+    margin: 0; }
+  /* line 124, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h2 {
+    font-size: 1.5em; }
+  /* line 128, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h3 {
+    font-size: 1.25em; }
+  /* line 132, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h4 {
+    font-size: 1.15em;
+    font-style: italic; }
+  /* line 137, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry p {
+    margin: 0.5em 0; }
+    /* line 140, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry p.first, .resume .entry p:first-child, .resume .entry p:first-of-type {
+      margin-top: 0; }
+    /* line 144, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry p.last, .resume .entry p:last-child, .resume .entry p:last-of-type {
+      margin-bottom: 0; }
+/* line 150, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #profile {
+  padding-top: 0; }
+/* line 155, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #skills .skill {
+  float: left;
+  width: 31%;
+  margin: 0 10px 0 0; }
+  /* line 160, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume #skills .skill p {
+    margin-bottom: 0; }
+/* line 165, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #education .date {
+  display: none; }
+/* line 166, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #education p {
+  margin: 0; }
+
+/* line 4, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+body {
+  height: 100%;
+  width: 100%;
+  background: #333 url("../img/v1/bg.jpg");
+  color: #E9E9E9;
+  font: 12px Helvetica, Arial, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  -moz-text-shadow: #202020 0 0 0.5em;
+  -o-text-shadow: #202020 0 0 0.5em;
+  -webkit-text-shadow: #202020 0 0 0.5em;
+  text-shadow: #202020 0 0 0.5em;
+  margin: 0;
+  padding: 0; }
+
+/* line 23, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+a {
+  text-decoration: none; }
+  /* line 26, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  a:focus {
+    border-bottom: 1px solid #E9E9E9; }
+
+/* line 31, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+abbr {
+  border-color: inherit;
+  border-style: dotted;
+  border-width: 0 0 1px 0; }
+
+/* line 37, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0; }
+
+/* line 44, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+#wrapper {
+  width: 950px;
+  margin: 0;
+  padding: 15px 15px 30px; }
+
+/* line 51, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+header,
+#content,
+footer {
+  margin-right: 250px; }
+
+/* line 57, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+header {
+  padding-bottom: 15px; }
+  /* line 60, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  header .logo {
+    font-family: inherit; }
+    /* line 63, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    header .logo .brand {
+      font-size: inherit;
+      font-weight: bold; }
+      /* line 67, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      header .logo .brand:last-child, header .logo .brand:last-of-type {
+        line-height: initial; }
+  /* line 74, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  header nav {
+    position: absolute;
+    top: 0;
+    right: 0; }
+    /* line 79, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      /* line 84, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      header nav ul li {
+        display: inline;
+        padding: 0 5px; }
+        /* line 88, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+        header nav ul li.selected {
+          font-weight: bold; }
+
+/* line 96, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+#content {
+  background: #FFF;
+  color: #424242;
+  font-family: Georgia, Times, serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-transform: none;
+  -moz-text-shadow: none;
+  -o-text-shadow: none;
+  -webkit-text-shadow: none;
+  text-shadow: none;
+  -moz-box-shadow: #333 0px 0px 0.5em;
+  -o-box-shadow: #333 0px 0px 0.5em;
+  -webkit-box-shadow: #333 0px 0px 0.5em;
+  box-shadow: #333 0px 0px 0.5em;
+  padding: 30px; }
+  /* line 117, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content a {
+    text-decoration: underline; }
+    /* line 120, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    #content a:focus, #content a:hover {
+      color: #828282;
+      border-bottom: 0; }
+  /* line 127, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content .section-title {
+    height: 135px;
+    background: #F80;
+    color: #FFF;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 195px;
+    text-align: right;
+    -moz-text-shadow: #D60 2px 2px 1px;
+    -o-text-shadow: #D60 2px 2px 1px;
+    -webkit-text-shadow: #D60 2px 2px 1px;
+    text-shadow: #D60 2px 2px 1px;
+    margin: -30px -30px 30px -30px;
+    padding: 0 30px; }
+  /* line 147, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content h2 {
+    border-bottom: 1px solid #BCBCBC;
+    margin: 0;
+    padding: 0 0 10px; }
+    /* line 152, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    .notebook #content h2 {
+      border-bottom: 0;
+      padding-bottom: 0; }
+  /* line 159, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content p:first-child {
+    margin-top: 0; }
+  /* line 163, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content p:last-child {
+    margin-bottom: 0; }
+  /* line 168, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content section {
+    padding-bottom: 30px; }
+    /* line 171, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    #content section:last-child, #content section:last-of-type {
+      padding-bottom: 0; }
+  /* line 177, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content article.entry {
+    padding: 0; }
+    /* line 180, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    #content article.entry .date,
+    #content article.entry .status {
+      position: absolute;
+      top: 0;
+      right: 0; }
+  /* line 188, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content .entry {
+    position: relative; }
+    /* line 191, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    #content .entry .title {
+      margin-top: 0; }
+      /* line 194, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      #content .entry .title a {
+        text-decoration: none; }
+        /* line 197, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+        #content .entry .title a:hover {
+          text-decoration: underline; }
+    /* line 203, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    #content .entry .date,
+    #content .entry .status {
+      color: #999;
+      font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+      font-size: 0.8em;
+      text-align: right; }
+  /* line 212, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content .listing {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 217, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    #content .listing p {
+      color: #666;
+      margin: 0; }
+    /* line 222, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    #content .listing .entry {
+      padding: 10px 0; }
+      /* line 225, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      #content .listing .entry .date,
+      #content .listing .entry .status {
+        position: absolute;
+        top: 10px;
+        right: 0; }
+      /* line 232, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      #content .listing .entry:first-child, #content .listing .entry:first-of-type {
+        padding-top: 0; }
+        /* line 236, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+        #content .listing .entry:first-child .date,
+        #content .listing .entry:first-child .status, #content .listing .entry:first-of-type .date,
+        #content .listing .entry:first-of-type .status {
+          top: 0; }
+      /* line 242, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      #content .listing .entry:last-child, #content .listing .entry:last-of-type {
+        padding-bottom: 0; }
+
+/* line 250, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+footer {
+  text-align: center;
+  margin: 15px 250px 0 0; }
+  /* line 254, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 259, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    footer ul li {
+      display: inline;
+      padding: 0 5px; }
+
+/* !Pull Quotes */
+/* line 267, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+#content aside,
+#content article.entry .description {
+  float: right;
+  width: 220px;
+  color: #E9E9E9;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  -moz-text-shadow: #202020 0 0 0.5em;
+  -o-text-shadow: #202020 0 0 0.5em;
+  -webkit-text-shadow: #202020 0 0 0.5em;
+  text-shadow: #202020 0 0 0.5em;
+  margin: 10px -280px 30px 0; }
+  /* line 285, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content aside:first-child, #content aside:first-of-type,
+  #content article.entry .description:first-child,
+  #content article.entry .description:first-of-type {
+    margin-top: 0; }
+  /* line 290, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content aside:last-child, #content aside:last-of-type,
+  #content article.entry .description:last-child,
+  #content article.entry .description:last-of-type {
+    margin-bottom: 0; }
+  /* line 295, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  #content aside a:focus,
+  #content aside a:hover,
+  #content article.entry .description a:focus,
+  #content article.entry .description a:hover {
+    color: #F80; }
+
+/* line 301, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+aside {
+  margin-top: 0; }
+  /* line 304, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  aside blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0; }
+    /* line 309, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    aside blockquote + cite {
+      font-size: 12px;
+      font-style: normal; }
+      /* line 313, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      aside blockquote + cite a {
+        text-decoration: none; }
+  /* line 319, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  aside .more {
+    float: right;
+    font-size: 11px;
+    text-decoration: none; }
+
+/* line 326, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+.index header {
+  background: #F80;
+  color: #FFF;
+  text-align: center;
+  margin-top: 29px;
+  padding: 75px 0; }
+  /* line 335, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  .index header nav {
+    position: absolute;
+    top: -29px;
+    right: 0; }
+  /* line 341, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+  .index header .logo {
+    text-align: center; }
+    /* line 344, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    .index header .logo .brand {
+      height: auto;
+      background: none;
+      color: #FFF;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 1.5em;
+      text-align: inherit;
+      text-transform: capitalize;
+      -moz-text-shadow: #D60 2px 2px 1px;
+      -o-text-shadow: #D60 2px 2px 1px;
+      -webkit-text-shadow: #D60 2px 2px 1px;
+      text-shadow: #D60 2px 2px 1px;
+      cursor: default;
+      margin: 0;
+      padding: 0 30px; }
+      /* line 366, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+      .index header .logo .brand a {
+        text-decoration: none;
+        cursor: default; }
+    /* line 372, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1.scss */
+    .index header .logo .tagline {
+      display: block;
+      font-family: Helvetica, Arial, Verdana, sans-serif;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      -moz-text-shadow: #D60 2px 2px 1px;
+      -o-text-shadow: #D60 2px 2px 1px;
+      -webkit-text-shadow: #D60 2px 2px 1px;
+      text-shadow: #D60 2px 2px 1px;
+      border: 0;
+      cursor: default;
+      margin: 0;
+      padding: 0; }

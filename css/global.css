@@ -1,0 +1,73 @@
+/* line 1, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+a {
+  color: inherit; }
+
+/* line 5, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+header,
+section,
+footer,
+article {
+  display: block; }
+
+/* line 12, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+.cfx:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+/* line 13, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+.cfx {
+  display: inline-table;
+  min-width: 1px; }
+
+/* Hides from IE-mac \*/
+/* line 16, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+.cfx {
+  display: block; }
+
+/* line 18, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+#wrapper {
+  text-align: left;
+  margin: 0 auto; }
+
+/* line 23, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+header, #content, footer {
+  clear: both;
+  position: relative; }
+
+/* line 1, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/syntax.scss */
+pre {
+  display: block;
+  background: #333;
+  color: #FFF;
+  font: 14px/1.4em Monaco, monospace;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 15px; }
+
+/* line 14, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/syntax.scss */
+.s1, .s2, .sx, .mi {
+  color: #aec4eb; }
+
+/* line 15, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/syntax.scss */
+.nb, .k, .o, .kp {
+  color: #c4ebae; }
+
+/* line 16, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/syntax.scss */
+.ss {
+  color: #ffcf87; }
+
+/* line 17, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/syntax.scss */
+.nf {
+  color: #ffffa0; }
+
+/* line 18, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/syntax.scss */
+.vi {
+  color: #ff9f9d; }
+
+/* line 19, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/syntax.scss */
+.c, .c1 {
+  color: #a0a0a0; }

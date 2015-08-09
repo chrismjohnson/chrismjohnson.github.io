@@ -1,0 +1,38 @@
+/* line 1, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+a {
+  color: inherit; }
+
+/* line 5, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+header,
+section,
+footer,
+article {
+  display: block; }
+
+/* line 12, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+.cfx:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+/* line 13, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+.cfx {
+  display: inline-table;
+  min-width: 1px; }
+
+/* Hides from IE-mac \*/
+/* line 16, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+.cfx {
+  display: block; }
+
+/* line 18, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+#wrapper {
+  text-align: left;
+  margin: 0 auto; }
+
+/* line 23, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/global/reset.scss */
+header, #content, footer {
+  clear: both;
+  position: relative; }

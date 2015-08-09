@@ -1,0 +1,5 @@
+A common part of optimizing a website has to do with reducing the number of requests made. Reducing the number of requests means you cut out the overhead of opening multiple HTTP connections. A typical approach to this reduction comes by way of combining your CSS & Javascript into single files.
+
+With "CollegeHumor":http://www.collegehumor.com we have a lot of CSS and Javascript to incorporate. We've broken the code out across multiple files to be both better organized and only have to load code that applies to a specific page. If we were to reduce all of this code down to a single file it would mean we were loading a lot of code that would never be used by the user for that page.
+
+Our solution to the problem is that we build page-specific packages of CSS and Javascript. For each different combination of CSS files and each different combination of Javascript files that we load, we compress that combination in to a single file to be loaded from our <abbr title="Content Delivery Network">CDN</abbr>. These individual compressed files are what we call an asset package.

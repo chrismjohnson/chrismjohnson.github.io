@@ -1,0 +1,129 @@
+/* line 2, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume dl {
+  line-height: 24px;
+  margin: 0; }
+  /* line 6, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume dl dt {
+    float: left;
+    width: 10em;
+    font-style: italic;
+    font-weight: normal; }
+    /* line 12, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume dl dt:after {
+      content: ":"; }
+  /* line 17, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume dl dd {
+    margin-left: 10em; }
+/* line 22, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume ul {
+  list-style: disc;
+  margin: 0 0 1.5em 1.5em;
+  padding: 0; }
+/* line 28, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume section {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0;
+  padding: 1em 0; }
+  /* line 33, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume section.first, .resume section:first-child, .resume section:first-of-type {
+    margin-top: 0;
+    padding-top: 0; }
+  /* line 40, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume section.last, .resume section:last-child, .resume section:last-of-type {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  /* line 48, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume section > .title {
+    border: 0 !important;
+    float: right;
+    width: 220px;
+    color: #E9E9E9;
+    line-height: 16px;
+    -moz-text-shadow: #202020 0 0 0.5em;
+    -o-text-shadow: #202020 0 0 0.5em;
+    -webkit-text-shadow: #202020 0 0 0.5em;
+    text-shadow: #202020 0 0 0.5em;
+    margin: 0 -280px 0 0 !important;
+    padding: 0 !important; }
+/* line 67, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume .entry {
+  position: relative;
+  text-align: justify;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 1em 0;
+  padding: 0 0 0 0; }
+  /* line 74, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry.first, .resume .entry:first-child, .resume .entry:first-of-type {
+    padding-top: 0; }
+    /* line 79, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry.first .date, .resume .entry:first-child .date, .resume .entry:first-of-type .date {
+      top: 0; }
+  /* line 82, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry.last, .resume .entry:last-child, .resume .entry:last-of-type {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  /* line 90, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry .date {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  /* line 96, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry .location {
+    display: none; }
+  /* line 100, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry .position {
+    position: relative; }
+    /* line 103, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry .position .title {
+      display: inline-block;
+      font-style: italic; }
+    /* line 108, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry .position .date {
+      display: inline-block;
+      position: static;
+      margin-left: 20px; }
+    /* line 115, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry .position:first-of-type:last-of-type .date {
+      display: none; }
+  /* line 119, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h1, .resume .entry h2, .resume .entry h3, .resume .entry h4, .resume .entry h5 {
+    font-weight: normal;
+    margin: 0; }
+  /* line 124, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h2 {
+    font-size: 1.5em; }
+  /* line 128, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h3 {
+    font-size: 1.25em; }
+  /* line 132, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry h4 {
+    font-size: 1.15em;
+    font-style: italic; }
+  /* line 137, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume .entry p {
+    margin: 0.5em 0; }
+    /* line 140, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry p.first, .resume .entry p:first-child, .resume .entry p:first-of-type {
+      margin-top: 0; }
+    /* line 144, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+    .resume .entry p.last, .resume .entry p:last-child, .resume .entry p:last-of-type {
+      margin-bottom: 0; }
+/* line 150, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #profile {
+  padding-top: 0; }
+/* line 155, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #skills .skill {
+  float: left;
+  width: 31%;
+  margin: 0 10px 0 0; }
+  /* line 160, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+  .resume #skills .skill p {
+    margin-bottom: 0; }
+/* line 165, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #education .date {
+  display: none; }
+/* line 166, /Users/chris/Dropbox/Projects/chrismjohnson/cmj/source/css/v1/resume.scss */
+.resume #education p {
+  margin: 0; }
